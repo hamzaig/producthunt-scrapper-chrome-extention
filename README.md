@@ -135,6 +135,15 @@ Edit `content.js` - modify the `scrapeProducts()` function
 **Change UI:**
 Edit `popup.html` - modify the HTML structure
 
+## 👨‍💻 Maintainer
+
+This open-source extension is maintained by **Hamza Ali Khalid**.
+
+- **[hamzaig.com](https://www.hamzaig.com/)** - Personal portfolio focused on backend engineering, AI translation systems, scalable SaaS platforms, and production-grade API development.
+- **[moonsys.co](https://www.moonsys.co/)** - MoonSys is a software development and AI solutions company offering custom software, generative AI, web and backend engineering, staff augmentation, cloud, QA, and automation services.
+
+If you want custom scraping, browser automation, AI integrations, or product engineering support, these are the primary contact points behind this project.
+
 ## 📄 License
 
 Free to use and modify!
@@ -148,7 +157,7 @@ Having issues? Common fixes:
 
 ---
 
-**Made with ❤️ for Product Hunt enthusiasts**
+Built by [HamzaIG](https://www.hamzaig.com/) in collaboration with [MoonSys](https://www.moonsys.co/).
 
 Version 1.0.0
 # producthunt-scrapper-chrome-extention
