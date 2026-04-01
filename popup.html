@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Hunt Scraper</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🚀 Product Hunt Scraper</h1>
+      <p class="subtitle">Extract today's launches and enrich top 150</p>
+    </div>
+
+    <div class="status" id="status">
+      <p>📍 Make sure you're on Product Hunt website</p>
+    </div>
+
+    <div class="actions">
+      <button id="scrapeBtn" class="btn btn-primary">
+        <span class="btn-icon">📦</span>
+        Scrape Products
+      </button>
+
+      <button id="enrichBtn" class="btn btn-secondary" disabled>
+        <span class="btn-icon">🔎</span>
+        Add More Details
+      </button>
+
+      <button id="downloadBtn" class="btn btn-secondary" disabled>
+        <span class="btn-icon">💾</span>
+        Download JSON
+      </button>
+    </div>
+
+    <p class="helper-text">Detailed enrichment is capped at the top 150 products.</p>
+
+    <div class="results" id="results">
+      <div class="result-item">
+        <span class="label">Products Found:</span>
+        <span class="value" id="productCount">0</span>
+      </div>
+      <div class="result-item">
+        <span class="label">Total Upvotes:</span>
+        <span class="value" id="totalUpvotes">0</span>
+      </div>
+      <div class="result-item">
+        <span class="label">Details Added:</span>
+        <span class="value" id="detailsCount">0</span>
+      </div>
+      <div class="result-item">
+        <span class="label">Max Limit:</span>
+        <span class="value" id="productLimit">150</span>
+      </div>
+    </div>
+
+    <div class="preview" id="preview" style="display: none;">
+      <h3>Preview</h3>
+      <div id="previewList"></div>
+    </div>
+
+    <div class="footer">
+      <p>v1.0.0 • Made with ❤️</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
